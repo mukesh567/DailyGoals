@@ -59,5 +59,7 @@ form.addEventListener("submit", (e) => {
     });
 
     localStorage.setItem("tasks", JSON.stringify(tasks));
+    title:"",
+    description: "",
     showAllTasks();
 });
